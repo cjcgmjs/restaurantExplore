@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="FilterTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pq7-Wh-Pgu">
+                        <rect key="frame" x="263" y="8" width="51" height="27.5"/>
+                        <connections>
+                            <action selector="didUpdateCategory:" destination="KGk-i7-Jjw" eventType="valueChanged" id="zfW-Fb-ZjC"/>
+                        </connections>
+                    </switch>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdw-nV-tXF">
+                        <rect key="frame" x="8" y="8" width="255" height="27.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bdw-nV-tXF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="8zf-ZN-zRd"/>
+                    <constraint firstItem="bdw-nV-tXF" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="FBc-Sv-pMX"/>
+                    <constraint firstItem="pq7-Wh-Pgu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Leo-a5-P6q"/>
+                    <constraint firstItem="pq7-Wh-Pgu" firstAttribute="leading" secondItem="bdw-nV-tXF" secondAttribute="trailing" id="Ugy-pL-BiO"/>
+                    <constraint firstItem="bdw-nV-tXF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="bQ5-sK-4hH"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="pq7-Wh-Pgu" secondAttribute="trailing" id="eZn-fY-3T0"/>
+                    <constraint firstItem="pq7-Wh-Pgu" firstAttribute="leading" secondItem="bdw-nV-tXF" secondAttribute="trailing" id="kLB-R5-Utz"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="pq7-Wh-Pgu" secondAttribute="bottom" id="r1K-ux-OqZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="categoryTitle" destination="bdw-nV-tXF" id="e1b-2N-iPK"/>
+                <outlet property="filter" destination="pq7-Wh-Pgu" id="J9L-Kz-Q5n"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

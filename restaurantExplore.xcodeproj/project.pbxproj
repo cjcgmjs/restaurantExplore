@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A8ED7301F521B6F00D335A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ED72F1F521B6F00D335A8 /* main.m */; };
+		0A8ED7331F521B6F00D335A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ED7321F521B6F00D335A8 /* AppDelegate.m */; };
+		0A8ED7361F521B6F00D335A8 /* YelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ED7351F521B6F00D335A8 /* YelpViewController.m */; };
+		0A8ED73B1F521B6F00D335A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8ED73A1F521B6F00D335A8 /* Assets.xcassets */; };
+		0A8ED73E1F521B6F00D335A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8ED73C1F521B6F00D335A8 /* LaunchScreen.storyboard */; };
+		0A8ED7491F521B6F00D335A8 /* summerYelpMockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ED7481F521B6F00D335A8 /* summerYelpMockTests.m */; };
+		0A8ED7541F521B6F00D335A8 /* summerYelpMockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ED7531F521B6F00D335A8 /* summerYelpMockUITests.m */; };
+		0A8ED7651F521BDC00D335A8 /* YelpNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ED7641F521BDC00D335A8 /* YelpNetworking.m */; };
+		0A8ED7691F522FE900D335A8 /* YelpDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ED7681F522FE900D335A8 /* YelpDataModel.m */; };
+		0A8ED76E1F56636D00D335A8 /* YelpTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ED76C1F56636D00D335A8 /* YelpTableViewCell.m */; };
+		0A8ED76F1F56636D00D335A8 /* YelpTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A8ED76D1F56636D00D335A8 /* YelpTableViewCell.xib */; };
+		0A8ED7731F5B57E400D335A8 /* YelpDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ED7721F5B57E400D335A8 /* YelpDataStore.m */; };
+		0A8ED7771F5B59ED00D335A8 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ED7761F5B59ED00D335A8 /* MapViewController.m */; };
+		0A8ED77A1F5B5FAF00D335A8 /* YelpAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ED7791F5B5FAF00D335A8 /* YelpAnnotation.m */; };
+		0A8ED77D1F5F8F4000D335A8 /* DetailYelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ED77C1F5F8F4000D335A8 /* DetailYelpViewController.m */; };
+		0A8ED7811F5F8F8E00D335A8 /* DetailViewHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ED77F1F5F8F8E00D335A8 /* DetailViewHeaderTableViewCell.m */; };
+		0A8ED7821F5F8F8E00D335A8 /* DetailViewHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A8ED7801F5F8F8E00D335A8 /* DetailViewHeaderTableViewCell.xib */; };
+		0A8ED7861F5FA11B00D335A8 /* MapTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ED7841F5FA11B00D335A8 /* MapTableViewCell.m */; };
+		0A8ED7871F5FA11B00D335A8 /* MapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A8ED7851F5FA11B00D335A8 /* MapTableViewCell.xib */; };
+		0A8ED7CC1F68D6CD00D335A8 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ED7CB1F68D6CD00D335A8 /* FilterViewController.m */; };
+		0A8ED7D01F68D76E00D335A8 /* FilterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ED7CE1F68D76E00D335A8 /* FilterTableViewCell.m */; };
+		0A8ED7D11F68D76E00D335A8 /* FilterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A8ED7CF1F68D76E00D335A8 /* FilterTableViewCell.xib */; };
+		0A8ED7D51F68D78900D335A8 /* PriceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ED7D31F68D78900D335A8 /* PriceTableViewCell.m */; };
+		0A8ED7D61F68D78900D335A8 /* PriceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A8ED7D41F68D78900D335A8 /* PriceTableViewCell.xib */; };
+		0A8ED7D91F68D94600D335A8 /* YelpFilterDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8ED7D81F68D94600D335A8 /* YelpFilterDataModel.m */; };
+		6B52C01F55E0D285E138440C /* libPods-restaurantExplore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B33000D5E9CC382A3885BC00 /* libPods-restaurantExplore.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A8ED7451F521B6F00D335A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A8ED7231F521B6E00D335A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8ED72A1F521B6E00D335A8;
+			remoteInfo = summerYelpMock;
+		};
+		0A8ED7501F521B6F00D335A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A8ED7231F521B6E00D335A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8ED72A1F521B6E00D335A8;
+			remoteInfo = summerYelpMock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A8ED72B1F521B6F00D335A8 /* restaurantExplore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = restaurantExplore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8ED72F1F521B6F00D335A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A8ED7311F521B6F00D335A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A8ED7321F521B6F00D335A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A8ED7341F521B6F00D335A8 /* YelpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YelpViewController.h; sourceTree = "<group>"; };
+		0A8ED7351F521B6F00D335A8 /* YelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YelpViewController.m; sourceTree = "<group>"; };
+		0A8ED73A1F521B6F00D335A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A8ED73D1F521B6F00D335A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A8ED73F1F521B6F00D335A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8ED7441F521B6F00D335A8 /* restaurantExploreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = restaurantExploreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8ED7481F521B6F00D335A8 /* summerYelpMockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = summerYelpMockTests.m; sourceTree = "<group>"; };
+		0A8ED74A1F521B6F00D335A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8ED74F1F521B6F00D335A8 /* restaurantExploreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = restaurantExploreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8ED7531F521B6F00D335A8 /* summerYelpMockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = summerYelpMockUITests.m; sourceTree = "<group>"; };
+		0A8ED7551F521B6F00D335A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8ED7631F521BDC00D335A8 /* YelpNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YelpNetworking.h; path = Networking/YelpNetworking.h; sourceTree = "<group>"; };
+		0A8ED7641F521BDC00D335A8 /* YelpNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YelpNetworking.m; path = Networking/YelpNetworking.m; sourceTree = "<group>"; };
+		0A8ED7671F522FE900D335A8 /* YelpDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YelpDataModel.h; path = DataModel/YelpDataModel.h; sourceTree = "<group>"; };
+		0A8ED7681F522FE900D335A8 /* YelpDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YelpDataModel.m; path = DataModel/YelpDataModel.m; sourceTree = "<group>"; };
+		0A8ED76B1F56636D00D335A8 /* YelpTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YelpTableViewCell.h; path = View/YelpTableViewCell.h; sourceTree = "<group>"; };
+		0A8ED76C1F56636D00D335A8 /* YelpTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YelpTableViewCell.m; path = View/YelpTableViewCell.m; sourceTree = "<group>"; };
+		0A8ED76D1F56636D00D335A8 /* YelpTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YelpTableViewCell.xib; path = View/YelpTableViewCell.xib; sourceTree = "<group>"; };
+		0A8ED7711F5B57E400D335A8 /* YelpDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YelpDataStore.h; path = DataStore/YelpDataStore.h; sourceTree = "<group>"; };
+		0A8ED7721F5B57E400D335A8 /* YelpDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YelpDataStore.m; path = DataStore/YelpDataStore.m; sourceTree = "<group>"; };
+		0A8ED7751F5B59ED00D335A8 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ViewController/MapViewController.h; sourceTree = "<group>"; };
+		0A8ED7761F5B59ED00D335A8 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ViewController/MapViewController.m; sourceTree = "<group>"; };
+		0A8ED7781F5B5FAF00D335A8 /* YelpAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YelpAnnotation.h; path = DataModel/YelpAnnotation.h; sourceTree = "<group>"; };
+		0A8ED7791F5B5FAF00D335A8 /* YelpAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YelpAnnotation.m; path = DataModel/YelpAnnotation.m; sourceTree = "<group>"; };
+		0A8ED77B1F5F8F4000D335A8 /* DetailYelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailYelpViewController.h; path = ViewController/DetailYelpViewController.h; sourceTree = "<group>"; };
+		0A8ED77C1F5F8F4000D335A8 /* DetailYelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailYelpViewController.m; path = ViewController/DetailYelpViewController.m; sourceTree = "<group>"; };
+		0A8ED77E1F5F8F8E00D335A8 /* DetailViewHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewHeaderTableViewCell.h; path = View/DetailViewHeaderTableViewCell.h; sourceTree = "<group>"; };
+		0A8ED77F1F5F8F8E00D335A8 /* DetailViewHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewHeaderTableViewCell.m; path = View/DetailViewHeaderTableViewCell.m; sourceTree = "<group>"; };
+		0A8ED7801F5F8F8E00D335A8 /* DetailViewHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailViewHeaderTableViewCell.xib; path = View/DetailViewHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		0A8ED7831F5FA11B00D335A8 /* MapTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapTableViewCell.h; path = View/MapTableViewCell.h; sourceTree = "<group>"; };
+		0A8ED7841F5FA11B00D335A8 /* MapTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapTableViewCell.m; path = View/MapTableViewCell.m; sourceTree = "<group>"; };
+		0A8ED7851F5FA11B00D335A8 /* MapTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapTableViewCell.xib; path = View/MapTableViewCell.xib; sourceTree = "<group>"; };
+		0A8ED7CA1F68D6CD00D335A8 /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterViewController.h; path = ViewController/FilterViewController.h; sourceTree = "<group>"; };
+		0A8ED7CB1F68D6CD00D335A8 /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FilterViewController.m; path = ViewController/FilterViewController.m; sourceTree = "<group>"; };
+		0A8ED7CD1F68D76D00D335A8 /* FilterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterTableViewCell.h; path = View/FilterTableViewCell.h; sourceTree = "<group>"; };
+		0A8ED7CE1F68D76E00D335A8 /* FilterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FilterTableViewCell.m; path = View/FilterTableViewCell.m; sourceTree = "<group>"; };
+		0A8ED7CF1F68D76E00D335A8 /* FilterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FilterTableViewCell.xib; path = View/FilterTableViewCell.xib; sourceTree = "<group>"; };
+		0A8ED7D21F68D78900D335A8 /* PriceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PriceTableViewCell.h; path = View/PriceTableViewCell.h; sourceTree = "<group>"; };
+		0A8ED7D31F68D78900D335A8 /* PriceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PriceTableViewCell.m; path = View/PriceTableViewCell.m; sourceTree = "<group>"; };
+		0A8ED7D41F68D78900D335A8 /* PriceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PriceTableViewCell.xib; path = View/PriceTableViewCell.xib; sourceTree = "<group>"; };
+		0A8ED7D71F68D94600D335A8 /* YelpFilterDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YelpFilterDataModel.h; path = DataModel/YelpFilterDataModel.h; sourceTree = "<group>"; };
+		0A8ED7D81F68D94600D335A8 /* YelpFilterDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YelpFilterDataModel.m; path = DataModel/YelpFilterDataModel.m; sourceTree = "<group>"; };
+		0F6AE169D1C36F1CB0FE594F /* Pods-restaurantExplore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-restaurantExplore.release.xcconfig"; path = "Pods/Target Support Files/Pods-restaurantExplore/Pods-restaurantExplore.release.xcconfig"; sourceTree = "<group>"; };
+		B33000D5E9CC382A3885BC00 /* libPods-restaurantExplore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-restaurantExplore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD59E6F44B1359F0263532C /* Pods-restaurantExplore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-restaurantExplore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-restaurantExplore/Pods-restaurantExplore.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A8ED7281F521B6E00D335A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B52C01F55E0D285E138440C /* libPods-restaurantExplore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8ED7411F521B6F00D335A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8ED74C1F521B6F00D335A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A8ED7221F521B6E00D335A8 = {
+			isa = PBXGroup;
+			children = (
+				0A8ED72D1F521B6F00D335A8 /* restaurantExplore */,
+				0A8ED7471F521B6F00D335A8 /* restaurantExploreTests */,
+				0A8ED7521F521B6F00D335A8 /* restaurantExploreUITests */,
+				0A8ED72C1F521B6F00D335A8 /* Products */,
+				F2C768E36997DFEA6B122127 /* Pods */,
+				7DA2900FD4EAFBAF17521DAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A8ED72C1F521B6F00D335A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A8ED72B1F521B6F00D335A8 /* restaurantExplore.app */,
+				0A8ED7441F521B6F00D335A8 /* restaurantExploreTests.xctest */,
+				0A8ED74F1F521B6F00D335A8 /* restaurantExploreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A8ED72D1F521B6F00D335A8 /* restaurantExplore */ = {
+			isa = PBXGroup;
+			children = (
+				0A8ED7741F5B59B300D335A8 /* ViewController */,
+				0A8ED7701F5B57AE00D335A8 /* DataStore */,
+				0A8ED76A1F56632300D335A8 /* View */,
+				0A8ED7661F522FB600D335A8 /* DataModel */,
+				0A8ED7621F521BA200D335A8 /* Networking */,
+				0A8ED7311F521B6F00D335A8 /* AppDelegate.h */,
+				0A8ED7321F521B6F00D335A8 /* AppDelegate.m */,
+				0A8ED73A1F521B6F00D335A8 /* Assets.xcassets */,
+				0A8ED73C1F521B6F00D335A8 /* LaunchScreen.storyboard */,
+				0A8ED73F1F521B6F00D335A8 /* Info.plist */,
+				0A8ED72E1F521B6F00D335A8 /* Supporting Files */,
+			);
+			path = restaurantExplore;
+			sourceTree = "<group>";
+		};
+		0A8ED72E1F521B6F00D335A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A8ED72F1F521B6F00D335A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A8ED7471F521B6F00D335A8 /* restaurantExploreTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A8ED7481F521B6F00D335A8 /* summerYelpMockTests.m */,
+				0A8ED74A1F521B6F00D335A8 /* Info.plist */,
+			);
+			path = restaurantExploreTests;
+			sourceTree = "<group>";
+		};
+		0A8ED7521F521B6F00D335A8 /* restaurantExploreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A8ED7531F521B6F00D335A8 /* summerYelpMockUITests.m */,
+				0A8ED7551F521B6F00D335A8 /* Info.plist */,
+			);
+			path = restaurantExploreUITests;
+			sourceTree = "<group>";
+		};
+		0A8ED7621F521BA200D335A8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0A8ED7631F521BDC00D335A8 /* YelpNetworking.h */,
+				0A8ED7641F521BDC00D335A8 /* YelpNetworking.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		0A8ED7661F522FB600D335A8 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A8ED7671F522FE900D335A8 /* YelpDataModel.h */,
+				0A8ED7681F522FE900D335A8 /* YelpDataModel.m */,
+				0A8ED7781F5B5FAF00D335A8 /* YelpAnnotation.h */,
+				0A8ED7791F5B5FAF00D335A8 /* YelpAnnotation.m */,
+				0A8ED7D71F68D94600D335A8 /* YelpFilterDataModel.h */,
+				0A8ED7D81F68D94600D335A8 /* YelpFilterDataModel.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		0A8ED76A1F56632300D335A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A8ED76B1F56636D00D335A8 /* YelpTableViewCell.h */,
+				0A8ED76C1F56636D00D335A8 /* YelpTableViewCell.m */,
+				0A8ED76D1F56636D00D335A8 /* YelpTableViewCell.xib */,
+				0A8ED77E1F5F8F8E00D335A8 /* DetailViewHeaderTableViewCell.h */,
+				0A8ED77F1F5F8F8E00D335A8 /* DetailViewHeaderTableViewCell.m */,
+				0A8ED7801F5F8F8E00D335A8 /* DetailViewHeaderTableViewCell.xib */,
+				0A8ED7831F5FA11B00D335A8 /* MapTableViewCell.h */,
+				0A8ED7841F5FA11B00D335A8 /* MapTableViewCell.m */,
+				0A8ED7851F5FA11B00D335A8 /* MapTableViewCell.xib */,
+				0A8ED7CD1F68D76D00D335A8 /* FilterTableViewCell.h */,
+				0A8ED7CE1F68D76E00D335A8 /* FilterTableViewCell.m */,
+				0A8ED7CF1F68D76E00D335A8 /* FilterTableViewCell.xib */,
+				0A8ED7D21F68D78900D335A8 /* PriceTableViewCell.h */,
+				0A8ED7D31F68D78900D335A8 /* PriceTableViewCell.m */,
+				0A8ED7D41F68D78900D335A8 /* PriceTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0A8ED7701F5B57AE00D335A8 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				0A8ED7711F5B57E400D335A8 /* YelpDataStore.h */,
+				0A8ED7721F5B57E400D335A8 /* YelpDataStore.m */,
+			);
+			name = DataStore;
+			sourceTree = "<group>";
+		};
+		0A8ED7741F5B59B300D335A8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0A8ED7341F521B6F00D335A8 /* YelpViewController.h */,
+				0A8ED7351F521B6F00D335A8 /* YelpViewController.m */,
+				0A8ED7751F5B59ED00D335A8 /* MapViewController.h */,
+				0A8ED7761F5B59ED00D335A8 /* MapViewController.m */,
+				0A8ED77B1F5F8F4000D335A8 /* DetailYelpViewController.h */,
+				0A8ED77C1F5F8F4000D335A8 /* DetailYelpViewController.m */,
+				0A8ED7CA1F68D6CD00D335A8 /* FilterViewController.h */,
+				0A8ED7CB1F68D6CD00D335A8 /* FilterViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		7DA2900FD4EAFBAF17521DAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B33000D5E9CC382A3885BC00 /* libPods-restaurantExplore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2C768E36997DFEA6B122127 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFD59E6F44B1359F0263532C /* Pods-restaurantExplore.debug.xcconfig */,
+				0F6AE169D1C36F1CB0FE594F /* Pods-restaurantExplore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A8ED72A1F521B6E00D335A8 /* restaurantExplore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8ED7581F521B6F00D335A8 /* Build configuration list for PBXNativeTarget "restaurantExplore" */;
+			buildPhases = (
+				ABF77A1E339ADB0B4269E4A7 /* [CP] Check Pods Manifest.lock */,
+				0A8ED7271F521B6E00D335A8 /* Sources */,
+				0A8ED7281F521B6E00D335A8 /* Frameworks */,
+				0A8ED7291F521B6E00D335A8 /* Resources */,
+				A65BE388B1D171860277AB0A /* [CP] Embed Pods Frameworks */,
+				C9BC525F7B30C8CD80E510C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = restaurantExplore;
+			productName = summerYelpMock;
+			productReference = 0A8ED72B1F521B6F00D335A8 /* restaurantExplore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A8ED7431F521B6F00D335A8 /* restaurantExploreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8ED75B1F521B6F00D335A8 /* Build configuration list for PBXNativeTarget "restaurantExploreTests" */;
+			buildPhases = (
+				0A8ED7401F521B6F00D335A8 /* Sources */,
+				0A8ED7411F521B6F00D335A8 /* Frameworks */,
+				0A8ED7421F521B6F00D335A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A8ED7461F521B6F00D335A8 /* PBXTargetDependency */,
+			);
+			name = restaurantExploreTests;
+			productName = summerYelpMockTests;
+			productReference = 0A8ED7441F521B6F00D335A8 /* restaurantExploreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A8ED74E1F521B6F00D335A8 /* restaurantExploreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8ED75E1F521B6F00D335A8 /* Build configuration list for PBXNativeTarget "restaurantExploreUITests" */;
+			buildPhases = (
+				0A8ED74B1F521B6F00D335A8 /* Sources */,
+				0A8ED74C1F521B6F00D335A8 /* Frameworks */,
+				0A8ED74D1F521B6F00D335A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A8ED7511F521B6F00D335A8 /* PBXTargetDependency */,
+			);
+			name = restaurantExploreUITests;
+			productName = summerYelpMockUITests;
+			productReference = 0A8ED74F1F521B6F00D335A8 /* restaurantExploreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A8ED7231F521B6E00D335A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Nick;
+				TargetAttributes = {
+					0A8ED72A1F521B6E00D335A8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					0A8ED7431F521B6F00D335A8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A8ED72A1F521B6E00D335A8;
+					};
+					0A8ED74E1F521B6F00D335A8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A8ED72A1F521B6E00D335A8;
+					};
+				};
+			};
+			buildConfigurationList = 0A8ED7261F521B6E00D335A8 /* Build configuration list for PBXProject "restaurantExplore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A8ED7221F521B6E00D335A8;
+			productRefGroup = 0A8ED72C1F521B6F00D335A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A8ED72A1F521B6E00D335A8 /* restaurantExplore */,
+				0A8ED7431F521B6F00D335A8 /* restaurantExploreTests */,
+				0A8ED74E1F521B6F00D335A8 /* restaurantExploreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A8ED7291F521B6E00D335A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8ED7821F5F8F8E00D335A8 /* DetailViewHeaderTableViewCell.xib in Resources */,
+				0A8ED7D11F68D76E00D335A8 /* FilterTableViewCell.xib in Resources */,
+				0A8ED73E1F521B6F00D335A8 /* LaunchScreen.storyboard in Resources */,
+				0A8ED7D61F68D78900D335A8 /* PriceTableViewCell.xib in Resources */,
+				0A8ED76F1F56636D00D335A8 /* YelpTableViewCell.xib in Resources */,
+				0A8ED7871F5FA11B00D335A8 /* MapTableViewCell.xib in Resources */,
+				0A8ED73B1F521B6F00D335A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8ED7421F521B6F00D335A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8ED74D1F521B6F00D335A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A65BE388B1D171860277AB0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-restaurantExplore/Pods-restaurantExplore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABF77A1E339ADB0B4269E4A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-restaurantExplore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9BC525F7B30C8CD80E510C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-restaurantExplore/Pods-restaurantExplore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A8ED7271F521B6E00D335A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8ED7811F5F8F8E00D335A8 /* DetailViewHeaderTableViewCell.m in Sources */,
+				0A8ED7361F521B6F00D335A8 /* YelpViewController.m in Sources */,
+				0A8ED7651F521BDC00D335A8 /* YelpNetworking.m in Sources */,
+				0A8ED7CC1F68D6CD00D335A8 /* FilterViewController.m in Sources */,
+				0A8ED7731F5B57E400D335A8 /* YelpDataStore.m in Sources */,
+				0A8ED77D1F5F8F4000D335A8 /* DetailYelpViewController.m in Sources */,
+				0A8ED7771F5B59ED00D335A8 /* MapViewController.m in Sources */,
+				0A8ED7861F5FA11B00D335A8 /* MapTableViewCell.m in Sources */,
+				0A8ED7331F521B6F00D335A8 /* AppDelegate.m in Sources */,
+				0A8ED76E1F56636D00D335A8 /* YelpTableViewCell.m in Sources */,
+				0A8ED7691F522FE900D335A8 /* YelpDataModel.m in Sources */,
+				0A8ED7D91F68D94600D335A8 /* YelpFilterDataModel.m in Sources */,
+				0A8ED7D51F68D78900D335A8 /* PriceTableViewCell.m in Sources */,
+				0A8ED7D01F68D76E00D335A8 /* FilterTableViewCell.m in Sources */,
+				0A8ED77A1F5B5FAF00D335A8 /* YelpAnnotation.m in Sources */,
+				0A8ED7301F521B6F00D335A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8ED7401F521B6F00D335A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8ED7491F521B6F00D335A8 /* summerYelpMockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8ED74B1F521B6F00D335A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8ED7541F521B6F00D335A8 /* summerYelpMockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A8ED7461F521B6F00D335A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A8ED72A1F521B6E00D335A8 /* restaurantExplore */;
+			targetProxy = 0A8ED7451F521B6F00D335A8 /* PBXContainerItemProxy */;
+		};
+		0A8ED7511F521B6F00D335A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A8ED72A1F521B6E00D335A8 /* restaurantExplore */;
+			targetProxy = 0A8ED7501F521B6F00D335A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A8ED73C1F521B6F00D335A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A8ED73D1F521B6F00D335A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A8ED7561F521B6F00D335A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A8ED7571F521B6F00D335A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A8ED7591F521B6F00D335A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFD59E6F44B1359F0263532C /* Pods-restaurantExplore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = restaurantExplore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nick.restaurantExplore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A8ED75A1F521B6F00D335A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F6AE169D1C36F1CB0FE594F /* Pods-restaurantExplore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = restaurantExplore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nick.restaurantExplore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A8ED75C1F521B6F00D335A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = summerYelpMockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nick.summerYelpMockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/restaurantExplore.app/restaurantExplore";
+			};
+			name = Debug;
+		};
+		0A8ED75D1F521B6F00D335A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = summerYelpMockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nick.summerYelpMockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/restaurantExplore.app/restaurantExplore";
+			};
+			name = Release;
+		};
+		0A8ED75F1F521B6F00D335A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = summerYelpMockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nick.summerYelpMockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = summerYelpMock;
+			};
+			name = Debug;
+		};
+		0A8ED7601F521B6F00D335A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = summerYelpMockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nick.summerYelpMockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = summerYelpMock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A8ED7261F521B6E00D335A8 /* Build configuration list for PBXProject "restaurantExplore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8ED7561F521B6F00D335A8 /* Debug */,
+				0A8ED7571F521B6F00D335A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8ED7581F521B6F00D335A8 /* Build configuration list for PBXNativeTarget "restaurantExplore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8ED7591F521B6F00D335A8 /* Debug */,
+				0A8ED75A1F521B6F00D335A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8ED75B1F521B6F00D335A8 /* Build configuration list for PBXNativeTarget "restaurantExploreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8ED75C1F521B6F00D335A8 /* Debug */,
+				0A8ED75D1F521B6F00D335A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8ED75E1F521B6F00D335A8 /* Build configuration list for PBXNativeTarget "restaurantExploreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8ED75F1F521B6F00D335A8 /* Debug */,
+				0A8ED7601F521B6F00D335A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A8ED7231F521B6E00D335A8 /* Project object */;
+}
